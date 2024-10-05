@@ -1,0 +1,36 @@
+.ContactSection{
+  padding: 50px;
+  background-color: #131313;
+  color: white;
+  height: 100vh;
+}
+  h1 {
+    font-size: 40px;
+  }
+
+form{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+  input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1b1b1b;
+    color: white;
+  }
+
+  button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff7f15;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #d37734;
+    }
+  }

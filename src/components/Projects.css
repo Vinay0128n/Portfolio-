@@ -1,0 +1,30 @@
+.ProjectsSection{
+  padding: 50px;
+  background-color: #1b1b1b;
+  color: white;
+  height: 100vh;
+}
+  h1 {
+    font-size: 40px;
+  }
+
+.ProjectList{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.Project{
+  flex: 1;
+  margin-right: 20px;
+  background-color: #2a2a2a;
+  padding: 20px;
+  border-radius: 10px;
+}
+  h3 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }

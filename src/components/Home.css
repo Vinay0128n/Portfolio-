@@ -1,0 +1,141 @@
+.HomeSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  height: 100vh;
+  position: relative;
+  background-image: url(437363.jpg); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+}
+
+
+
+.TextSection{
+  flex: 1;
+  margin-right: 200px;
+  text-align: center;
+  /* justify-content: center; */
+  animation: slideRight 0.2s ease-out;
+  margin-left: 151px;
+  margin-top: 39px;
+  margin-bottom: auto;
+ 
+}
+  h1 {
+    font-size: 50px;
+    font-weight:bolder;
+    text-align: left;
+    color: white;
+
+  }
+
+
+  span{
+    font-size: 70px;
+  }
+
+  h2{
+    text-align: left;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+  }
+
+
+  span {
+    color: #0ef;
+  }
+
+.ButtonContainer{
+  margin-top: 40px;
+  display: flex;
+  align-items: start;
+
+}
+
+  .MainButton {
+    margin-right: 15px;
+    padding: 10px 20px;
+
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: orangered;
+
+    &:hover {
+      background-color: orangered;
+    }
+  }
+  
+
+ .SocialMedia{
+    display: flex;
+    gap: 20px;
+    
+ }
+
+ .ImageSec{
+  width: 344px;
+  margin-right: 180px;
+  margin-top: 49px;
+
+ }
+
+ .container{
+  width: 259px;
+    height: 113px;
+    background-color: #000;
+    margin-right: 435px;
+    margin-bottom: 398px;
+    border-radius: 63px 0px 0px 63px;
+    display: inline;
+ }
+
+ .Circle{
+  color: #0ef;
+ }
+
+ .Tcursor{
+  font-size: 44px;
+  margin-left: 39px;
+  margin-top: 23px;
+ }
+
+ .TextInside{
+  font-size: 44px;
+  color: orangered;
+
+ }
+
+
+ @keyframes slideRight {
+    0% {
+      transform: translateX(-100px); /* Start from the left */
+      opacity: 0; /* Invisible */
+    }
+    100% {
+      transform: translateX(0); /* End at natural position */
+      opacity: 1; /* Fully visible */
+    }
+  }
+  @keyframes fadeInImage {
+    0% {
+      transform: scale(1);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+
+
+
+ 
